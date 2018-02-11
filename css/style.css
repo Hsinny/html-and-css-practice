@@ -1,0 +1,251 @@
+body {
+  font-size: 15px;
+  width: 1000px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2 {
+  font-size: 36px;
+}
+
+h3{
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+h4{
+  font-size: 18px;  
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix:after {
+  content:'';
+  display:table;
+  clear:both;
+}
+
+.topNavi {
+  background-color: #f6f6f6;
+}
+
+.topNavi ul {
+  float: right;
+}
+.topNavi ul li {
+  display: inline-block;
+  margin: 6px 0;
+  padding: 0 6px;
+}
+
+.topNavi ul li + li {
+  border-left: 1px solid #ccc;
+}
+ 
+.topNavi img {
+  vertical-align: top;
+}
+
+.fb a{
+  color: #4460a0;
+}
+
+.twitter a{
+  color: #00aaec;
+}
+
+.fb a:hover,
+.twitter a:hover {
+  color: #0868ab;
+}
+
+.navi .logo a {
+  float: left;
+  margin-top: 8px;
+  background: url(../img/logo.png) no-repeat ;
+  width: 170px;
+  height: 36px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.menu-list {
+  float: right;
+}
+
+.menu-list li {
+  display: inline-block;
+  padding: 17px 12px 15px;
+  margin-right: 10px;
+}
+
+.menu-list li a {
+  color: #00cc99;
+}
+
+.menu-list li.active {
+  border-bottom: 3px solid #00cc99; 
+}
+
+.menu-list li:hover  {
+  border-bottom: 3px solid #00cc99; 
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-title {
+  padding: 40px 20px;
+  background-color: rgba(0,0,0,0.15);
+  position: absolute;
+  width: 100%;
+  top: 33%;
+  color: #fff;
+}
+
+.feature {
+    padding: 60px 0;
+}
+
+.feature .item {
+  width: 300px;
+  min-height: 370px;
+  padding: 24px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  display: inline-block;
+  margin: 0 15px;
+  vertical-align: top;
+}
+
+.feature img {
+  margin-bottom: 8px;
+}
+
+.feature h4 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.item ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.item ul li {
+  margin-bottom: 8px;
+}
+
+.classDiff {
+  margin-bottom: 60px;
+}
+
+.classDiff h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.classDiff tr {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+table {
+  margin: 0 auto;
+  width: 840px;
+}
+
+tr th {
+  background-color: #f6f6f6;
+  padding: 10px 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+tr td{
+  padding: 10px 20px;
+}
+
+.mark {
+  color: #00cc99;
+}
+
+.message {
+  background: -webkit-linear-gradient(#00654b,#00cc99);
+  background: -o-linear-gradient(#00654b,#00cc99);
+  background: -moz-linear-gradient(#00654b,#00cc99);
+  background: linear-gradient(#00654b,#00cc99);
+  padding: 30px 20px;;
+}
+
+.message h3 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 460px;
+  height: 245px;
+  outline: none;
+}
+
+.inputGroup {
+  float: right;
+  vertical-align: top;
+}
+
+input {
+  width: 460px;
+  height: 32px;
+  margin-bottom: 15px;
+  display: block;
+  outline: none;
+}
+
+label {
+  display: block;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.btn {
+  display: block;
+  background-color: #00cc99;
+  border: 0;
+  color: #fff;
+  width: 50px;
+  float: right;
+}
+
+.btn:hover {
+  background: #00644b;
+  cursor: pointer;
+}
+
+footer {
+  margin: 30px 20px 50px;
+}
+
+.contact {
+  float: right;
+}
+
+.contact a {
+  color: #e12d80;
+}
+
+.contact a:hover {
+  color: #b32466;
+}
+
